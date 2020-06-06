@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="home.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+
+        <nav class="navbar">
+            <div class="nav_contents">
+                <ul class="nav">
+                    <li class="home"><a href="file:///C:/Users/meera/OneDrive/Documents/Data_Analytics/html/hw/new/home.html">Home</a></li>
+                    <li class="dropdown"><a class="toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="file:///C:/Users/meera/OneDrive/Documents/Data_Analytics/html/hw/new/plot1.html">Latitude vs Temperature</a></li>
+                            <li><a href="file:///C:/Users/meera/OneDrive/Documents/Data_Analytics/html/hw/new/plot2.html">Latitude vs Humidity</a></li>
+                            <li><a href="file:///C:/Users/meera/OneDrive/Documents/Data_Analytics/html/hw/new/plot3.html">Latitude vs Wind Speed</a></li>
+                            <li><a href="file:///C:/Users/meera/OneDrive/Documents/Data_Analytics/html/hw/new/plot4.html">Latitude vs Cloudiness</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="file:///C:/Users/meera/OneDrive/Documents/Data_Analytics/html/hw/new/data.html">Data</a></li>
+                    <li><a href="file:///C:/Users/meera/OneDrive/Documents/Data_Analytics/html/hw/new/comparison.html">Comparison</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="landing">
+
+            <svg height="1000" width="1000">
+                <circle cx="670" cy="410" r="320" />
+            </svg>
+
+            <div class="text">
+                <p class="header">
+                    <b>Weather Across the Globe</b>
+                </p>
+                <p class="paragraph">
+                    In this assignment, </br>
+                    we attempted to extract weather </br>
+                    by latitude. The following graphs </br>
+                    show the data across various cities </br>
+                    in the world. The first graph shows </br>
+                    the temperature distribution alone among </br>
+                    different latitude points. The second graph </br>
+                    shows the humidity distribution among different </br>
+                    latitudes. The third graph shows the distribution of </br>
+                    wind speeds, and the fourth graph shows the distribution </br>
+                    of how cloudy it is at each location. Click on each graph to </br>
+                    see it close up and learn a little bit more about how weather </br>
+                    varies across different latitudes. Use these graphs to create </br>
+                    your own analyses about the locations displayed in these graphs, </br>
+                    and use them to further add to the vastly growing knowledge of </br>
+                    the many environmental properties within each location. </br>
+                    The raw data can be found on the 'Data' tab </br>
+                    to assist you in your analysis. We hope </br>
+                    this work yields many benefits, </br>
+                    and we wish you well.</br>
+                    Good luck!
+                </p>
+            </div>
+
+                
+
+                <div class="links">
+                    <div class="viz1">
+                        <img src="latitudeVStemp.png" onclick="window.location.href='file:///C:/Users/meera/OneDrive/Documents/Data_Analytics/html/hw/new/plot1.html';" target="_blank" width="300" height="200" alt="lat vs temp">
+                    </div>
+                    <div class="viz2">
+                        <img src="latitudeVShumidity.png" onclick="window.location.href='file:///C:/Users/meera/OneDrive/Documents/Data_Analytics/html/hw/new/plot2.html';" target="_blank" width="300" height="200" alt="lat vs humid">
+                    </div>
+                    <div class="viz3"> 
+                        <img src="latitudeVSwind.png" onclick="window.location.href='file:///C:/Users/meera/OneDrive/Documents/Data_Analytics/html/hw/new/plot3.html';" target="_blank" width="300" height="200" alt="lat vs wind">
+                    </div>
+                    <div class="viz4">
+                        <img src="latitudeVScloud.png" onclick="window.location.href='file:///C:/Users/meera/OneDrive/Documents/Data_Analytics/html/hw/new/plot4.html';" target="_blank" target="_blank" width="300" height="200" alt="lat vs cloud">
+                    </div>
+                </div>
+
+            <div class="bottom">
+                <p>
+                    ~Data Analytics Bootcamp 2020~</br>
+                </p>
+            </div>            
+
+        <script src="" async defer></script>
+    </body>
+</html>
